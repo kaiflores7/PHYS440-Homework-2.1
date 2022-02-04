@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct Homework_2_1App: App {
+struct Homework_1App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(minWidth: 500, minHeight: 600)
         }
     }
 }
